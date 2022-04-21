@@ -7,93 +7,134 @@
     <link rel="stylesheet" href="/styling/style.css">
     <title>Document</title>
 </head>
-<body>
 
     <header>
         <div class="navbar">
-            <a class="active" href="./index.html">Home</a>
-            <a href="/about.html">About</a>
-            <a href="./projects.html">Projects</a>
-            <a href="/contact.html"></a>
-        </div>
+            <a href="#home">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">About Me
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#aboutme">Me</a>
+                <a href="#">Education</a>
+                <a href="#">Testimonies</a>
+
+              </div>
+            </div>
+            <a href="#projects">Projects</a>
+          </div>
     </header>
 
-    <h1 class="heading">Hi, My Name Is<br>Cameron Stemmet</h1>
-    <div class="container">
-        <div class="child-container">
-            <img src="https://picsum.photos/100" alt="pic 1">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/200" alt="pic 2">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/300" alt="pic 3">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/400" alt="pic 4">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/500" alt="pic 5">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/600" alt="pic 6">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/150" alt="pic 7">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/250" alt="pic 8">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/350" alt="pic 9">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/450" alt="pic 10">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/550" alt="pic 11">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/650" alt="pic 12">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/110" alt="pic 13">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/210" alt="pic 14">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/310" alt="pic 15">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/410" alt="pic 16">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/510" alt="pic 17">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/610" alt="pic 18">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/125" alt="pic 19">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/225" alt="pic 20">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/325" alt="pic 21">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/425" alt="pic 22">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/525" alt="pic 23">
-        </div>
-        <div class="child-container">
-            <img src="https://picsum.photos/625" alt="pic 24">
-        </div>
-    </div>
-   
+<body>
 
+    <div class="landing-page">
+        <h1>Hi My Name Is</h1>
+        <h2>Cameron Stemmet</h2>
+    </div>
+
+    <div class="about-section" id="aboutme">
+        <h1>About Me</h1>
+        <p>A brief overview of myself as an employee as well as a person</p>
+        <p>Includes my interest, hobbies, education as well as what I bring to your company</p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/images/Cameron (1).JPG" alt="Cameron" style="width:100%">
+            <div class="container2">
+              <h2>Who am I?</h2>
+              <p>Cameron Stemmet</p>
+              <p>I am Cameron Stemmet. 18 years of age and am a studying web development at the life choices academy. I believe I’m a very hardworking individual who can contribute to all aspects of being a reliable and easy-going employee. I am always ready to learn new things and am constantly ready for new and exciting challenges.</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/photo-1570717173024-ec8081c8f8e9.jfif" alt="Mike" style="width:100%">
+            <div class="container2">
+              <h2>Why Web Development?</h2>
+              <p>I could lie and say it's been a passion since birth, but I'd rather be honnest and chalk it up to 3 factors:</p>
+                    <p>1. The money</p>
+                    <p>2. The freedom to work anywhere in the world</p>
+                    <p>3. It seems like a fun career where i can learn to grow and adapt to real life better.</p>  
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/images/3.png" alt="John" style="width:100%">
+            <div class="container2">
+              <h2>A bit about me</h2>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-section" id="aboutme">
+        <h1>Projects</h1>
+        <h3>These are my finished projects, more to come soon</h3>
+      </div>
+
+      <div id="projects2">
+        <figure>
+            <img src="/images/Screenshot 2022-04-21 161151.png" alt="Profile 1">
+            <img src="" alt="Profile 2">
+            <img src="" alt="Profile 3">
+            <img src="" alt="Profile 4">
+        </figure>
+    </div>
+
+    
+      
+     <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Cameron<span>Stemmet</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">About</a>
+                ·
+                <a href="#projects">Projects</a>
+                ·
+            </p>
+
+            <p class="footer-company-name">Cameron Stemmet© 2022</p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-right" id="contact">
+
+            <p>Contact Me</p>
+
+            <form action="#" method="post">
+
+                <input type="text" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button>Send</button>
+
+            </form>
+
+        </div>
+
+    </footer> 
 </body>
 </html>
